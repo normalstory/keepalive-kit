@@ -1,5 +1,9 @@
 # keepalive-kit
 
+> 공개 저장소: https://github.com/normalstory/keepalive-kit
+> 이 디렉터리는 **레퍼런스 구현이 함께 있는 원본**입니다. 변경 후
+> `git subtree split --prefix=tools/keepalive-kit` 으로 공개 저장소에 반영합니다.
+
 무료 티어 서비스가 **방치되면 잠드는 문제**를 다루는 플레이북.
 
 Supabase 무료 플랜은 7일 무활동이면 프로젝트를 정지시킨다. 비슷한 정책이 Neon·Render·
