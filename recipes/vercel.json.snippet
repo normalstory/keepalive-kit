@@ -1,0 +1,13 @@
+// vercel.json 에 추가
+//
+// ⚠ 시간대는 항상 UTC (설정 불가). 대시보드의 "At 03:00 AM" 도 UTC 다.
+// ⚠ Hobby 는 하루 1회가 강제 — 더 잦은 표현식은 배포가 실패한다.
+// ⚠ Hobby 는 지정한 시(hour) 안의 임의 시각에 실행된다 (±59분).
+{
+  "crons": [
+    {
+      "path": "/api/cron/keep-alive",
+      "schedule": "0 3 * * *"
+    }
+  ]
+}
